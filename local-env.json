@@ -1,0 +1,84 @@
+{
+    "AvailabilityMonitoring": [
+        {
+            "credentials": {
+                "pass": "8e0aa9d1-ffc1-4d5a-97be-7e74ec0d46db",
+                "id": "bafb02ab-0b5d-4007-b3ff-226ac7de6f37",
+                "url": "https://perfbroker.ng.bluemix.net/1.0/credentials/bafb02ab-0b5d-4007-b3ff-226ac7de6f37"
+            },
+            "syslog_drain_url": null,
+            "label": "AvailabilityMonitoring",
+            "provider": null,
+            "plan": "Lite",
+            "name": "availability-monitoring-auto",
+            "tags": [
+                "ibm_created",
+                "bluemix_extensions",
+                "dev_ops"
+            ]
+        }
+    ],
+    "postgresql": [
+        {
+            "credentials": {
+                "name": "d52a8eaf056694d9e93b84dd0123ea508",
+                "host": "159.8.128.62",
+                "hostname": "159.8.128.62",
+                "port": 5433,
+                "user": "uc8308503fe49414aac440396c5464435",
+                "username": "uc8308503fe49414aac440396c5464435",
+                "password": "p37f4db41055d435a895c25e7772f481a",
+                "uri": "postgres://uc8308503fe49414aac440396c5464435:p37f4db41055d435a895c25e7772f481a@159.8.128.62:5433/d52a8eaf056694d9e93b84dd0123ea508"
+            },
+            "syslog_drain_url": null,
+            "label": "postgresql",
+            "provider": "core",
+            "plan": "100",
+            "name": "PostgreSQL",
+            "tags": [
+                "relational",
+                "document",
+                "data_management",
+                "ibm_experimental"
+            ]
+        }
+    ],
+    "tradeoff_analytics": [
+        {
+            "credentials": {
+                "url": "https://gateway.watsonplatform.net/tradeoff-analytics/api",
+                "password": "ICzbsvbKupfV",
+                "username": "f0da5578-b1fe-4234-9b01-7e4982dc155f"
+            },
+            "syslog_drain_url": null,
+            "label": "tradeoff_analytics",
+            "provider": null,
+            "plan": "standard",
+            "name": "Tradeoff Analytics-ib",
+            "tags": [
+                "watson",
+                "ibm_created",
+                "ibm_dedicated_public"
+            ]
+        }
+    ],
+    "personality_insights": [
+        {
+            "credentials": {
+                "url": "https://gateway.watsonplatform.net/personality-insights/api",
+                "password": "xsvdSpIq5Vfy",
+                "username": "21b55932-eddb-485c-928a-fefbce8606e7"
+            },
+            "syslog_drain_url": null,
+            "label": "personality_insights",
+            "provider": null,
+            "plan": "tiered",
+            "name": "Personality Insights-yw",
+            "tags": [
+                "watson",
+                "ibm_created",
+                "ibm_dedicated_public"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 256M
+  command: ./run.sh
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: django-test
+  host: django-test
+  disk_quota: 1024M

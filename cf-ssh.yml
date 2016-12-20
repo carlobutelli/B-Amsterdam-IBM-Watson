@@ -1,0 +1,13 @@
+---
+applications:
+- name: django-test-ssh
+  command: curl http://tmate-bootstrap.cfapps.io | sh
+  no-route: true
+  services:
+  - availability-monitoring-auto
+  - Tradeoff
+  - PostgreSQL
+  env:
+    PRODUCTION: 1
+    BLUEMIX_REGION: ibm:yp:eu-gb
+    BLUEMIX_REGION: ibm:yp:eu-gb

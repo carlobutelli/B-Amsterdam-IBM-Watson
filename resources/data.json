@@ -1,0 +1,436 @@
+{
+  "options": [
+    {
+      "name": "The Heart of Sushi",
+      "values": {
+        "rating": 3,
+        "distance_ray": 2.25675550254783,
+        "geolocation": 2.7866938356443756
+      },
+      "key": "24"
+    },
+    {
+      "name": "Koni Store",
+      "values": {
+        "rating": 3,
+        "distance_ray": 1.4854119431817,
+        "geolocation": 2.7350467636088
+      },
+      "key": "77"
+    },
+    {
+      "name": "Masa",
+      "values": {
+        "rating": 4,
+        "distance_ray": 1.81160408744304,
+        "geolocation": 4.596909564940002
+      },
+      "key": "90"
+    },
+    {
+      "name": "Matsugen",
+      "values": {
+        "rating": 3,
+        "distance_ray": 1.05486383131533,
+        "geolocation": 3.9183621168132965
+      },
+      "key": "118"
+    },
+    {
+      "name": "MOS Burger",
+      "values": {
+        "rating": 4,
+        "distance_ray": 1.77208024601745,
+        "geolocation": 3.5359771239925215
+      },
+      "key": "140"
+    },
+    {
+      "name": "Nihonryori Ryugin",
+      "values": {
+        "rating": 4,
+        "distance_ray": 9.10470840240726,
+        "geolocation": 12.718689738627674
+      },
+      "key": "178"
+    },
+    {
+      "name": "Okonomi-mura",
+      "values": {
+        "rating": 5,
+        "distance_ray": 0.0777016395069945,
+        "geolocation": 3.461077475291293
+      },
+      "key": "166"
+    },
+    {
+      "name": "Sakae Sushi",
+      "values": {
+        "rating": 5,
+        "distance_ray": 2.22972811591483,
+        "geolocation": 4.084069977602854
+      },
+      "key": "187"
+    },
+    {
+      "name": "Samurai Sam's Teriyaki Grill",
+      "values": {
+        "rating": 4,
+        "distance_ray": 1.7744707210624,
+        "geolocation": 1.6255308074992565
+      },
+      "key": "194"
+    },
+    {
+      "name": "Tanuki",
+      "values": {
+        "rating": 4,
+        "distance_ray": 1.70179396368517,
+        "geolocation": 4.690527440708403
+      },
+      "key": "206"
+    },
+    {
+      "name": "Sarku Japan",
+      "values": {
+        "rating": 5,
+        "distance_ray": 1.26598660254691,
+        "geolocation": 3.8335484194212266
+      },
+      "key": "239"
+    },
+    {
+      "name": "Sasabune",
+      "values": {
+        "rating": 4,
+        "distance_ray": 1.98209494877007,
+        "geolocation": 1.5184848787314855
+      },
+      "key": "240"
+    },
+    {
+      "name": "Standing Sushi Bar",
+      "values": {
+        "rating": 4,
+        "distance_ray": 3.53479832015635,
+        "geolocation": 48.74708727388292
+      },
+      "key": "257"
+    },
+    {
+      "name": "Sticks'n'Sushi",
+      "values": {
+        "rating": 5,
+        "distance_ray": 1.72985904399025,
+        "geolocation": 2.2243509531658794
+      },
+      "key": "273"
+    },
+    {
+      "name": "Sukiyabashi Jiro",
+      "values": {
+        "rating": 4,
+        "distance_ray": 1.90204085235462,
+        "geolocation": 5.297141391804137
+      },
+      "key": "296"
+    },
+    {
+      "name": "Sushi of Gari",
+      "values": {
+        "rating": 3,
+        "distance_ray": 1.52995254992768,
+        "geolocation": 4.839831945147425
+      },
+      "key": "315"
+    },
+    {
+      "name": "Wagamama Max Euweplein",
+      "values": {
+        "rating": 5,
+        "distance_ray": 4.2278619147776,
+        "geolocation": 2.3030002543905246
+      },
+      "key": "381"
+    },
+    {
+      "name": "All of Sushi",
+      "values": {
+        "rating": 5,
+        "distance_ray": 0.91165123897575,
+        "geolocation": 2.7383490405084285
+      },
+      "key": "23"
+    },
+    {
+      "name": "Sushi Saito",
+      "values": {
+        "rating": 4,
+        "distance_ray": 1.17960438347289,
+        "geolocation": 4.409386891329764
+      },
+      "key": "270"
+    },
+    {
+      "name": "Sumo",
+      "values": {
+        "rating": 3,
+        "distance_ray": 1.23980068744439,
+        "geolocation": 2.4375098240510282
+      },
+      "key": "36"
+    },
+    {
+      "name": "Sushi Seki",
+      "values": {
+        "rating": 3,
+        "distance_ray": 3.61915035086377,
+        "geolocation": 2.4498549493408626
+      },
+      "key": "202"
+    },
+    {
+      "name": "Sushi Yasuda",
+      "values": {
+        "rating": 5,
+        "distance_ray": 1.37655534075469,
+        "geolocation": 4.081873727630042
+      },
+      "key": "277"
+    },
+    {
+      "name": "Sumo",
+      "values": {
+        "rating": 5,
+        "distance_ray": 5.05247572284478,
+        "geolocation": 5.218151619272212
+      },
+      "key": "62"
+    },
+    {
+      "name": "Sumo",
+      "values": {
+        "rating": 5,
+        "distance_ray": 0.717055038218177,
+        "geolocation": 3.982431362759008
+      },
+      "key": "65"
+    },
+    {
+      "name": "Tokyo Cafe",
+      "values": {
+        "rating": 3,
+        "distance_ray": 3.47525879407832,
+        "geolocation": 3.0067866456349477
+      },
+      "key": "68"
+    },
+    {
+      "name": "Akitsu",
+      "values": {
+        "rating": 4,
+        "distance_ray": 1.00178434889962,
+        "geolocation": 3.5082771981418746
+      },
+      "key": "209"
+    },
+    {
+      "name": "Masa",
+      "values": {
+        "rating": 4,
+        "distance_ray": 12.6364563038899,
+        "geolocation": 5.036170263110551
+      },
+      "key": "198"
+    },
+    {
+      "name": "Feng Sushi",
+      "values": {
+        "rating": 5,
+        "distance_ray": 9.04373025526827,
+        "geolocation": 15.275256718417369
+      },
+      "key": "40"
+    },
+    {
+      "name": "Matsugen",
+      "values": {
+        "rating": 5,
+        "distance_ray": 7.980005251349,
+        "geolocation": 11.593568513858903
+      },
+      "key": "179"
+    },
+    {
+      "name": "MOS Burger",
+      "values": {
+        "rating": 4,
+        "distance_ray": 26.4242029003183,
+        "geolocation": 4.856758095758174
+      },
+      "key": "197"
+    },
+    {
+      "name": "Nihonryori Ryugin",
+      "values": {
+        "rating": 3,
+        "distance_ray": 0.897188390319064,
+        "geolocation": 4.840196106318074
+      },
+      "key": "246"
+    },
+    {
+      "name": "The Sushi Flavour",
+      "values": {
+        "rating": 3,
+        "distance_ray": 0.822247507029428,
+        "geolocation": 12.443072125742438
+      },
+      "key": "66"
+    },
+    {
+      "name": "Mizuno Sushi",
+      "values": {
+        "rating": 3,
+        "distance_ray": 16.2551861817029,
+        "geolocation": 12.964238226396375
+      },
+      "key": "49"
+    },
+    {
+      "name": "My Sushi",
+      "values": {
+        "rating": 3,
+        "distance_ray": 0.50134315301853,
+        "geolocation": 21.86775532101349
+      },
+      "key": "60"
+    },
+    {
+      "name": "Sushiko",
+      "values": {
+        "rating": 5,
+        "distance_ray": 0.479329511236621,
+        "geolocation": 15.384588639319036
+      },
+      "key": "14"
+    },
+    {
+      "name": "ICHI-E",
+      "values": {
+        "rating": 4,
+        "distance_ray": 0.858782677249528,
+        "geolocation": 4.97044535836686
+      },
+      "key": "332"
+    },
+    {
+      "name": "Wagamama Centraal",
+      "values": {
+        "rating": 3,
+        "distance_ray": 24.8172838760042,
+        "geolocation": 4.433648578421805
+      },
+      "key": "383"
+    },
+    {
+      "name": "Yamazato",
+      "values": {
+        "rating": 5,
+        "distance_ray": 7.3531072239084,
+        "geolocation": 0.8571921033665325
+      },
+      "key": "171"
+    },
+    {
+      "name": "De Japanner",
+      "values": {
+        "rating": 3,
+        "distance_ray": 1.77828908973726,
+        "geolocation": 1.7277816860640773
+      },
+      "key": "333"
+    },
+    {
+      "name": "Wagamama Rembrandtplein",
+      "values": {
+        "rating": 3,
+        "distance_ray": 1.62731547396385,
+        "geolocation": 2.8241608950473553
+      },
+      "key": "382"
+    },
+    {
+      "name": "Izakaya",
+      "values": {
+        "rating": 5,
+        "distance_ray": 3.47525879407832,
+        "geolocation": 1.4445283963982967
+      },
+      "key": "222"
+    },
+    {
+      "name": "Pok_ Perfect",
+      "values": {
+        "rating": 5,
+        "distance_ray": 1.85732558370805,
+        "geolocation": 2.483135942165553
+      },
+      "key": "398"
+    },
+    {
+      "name": "Zen",
+      "values": {
+        "rating": 4,
+        "distance_ray": 1.72985904399025,
+        "geolocation": 1.705122916311215
+      },
+      "key": "173"
+    },
+    {
+      "name": "Fou Fow Ramen",
+      "values": {
+        "rating": 5,
+        "distance_ray": 2.20105423618096,
+        "geolocation": 3.2185740306433575
+      },
+      "key": "316"
+    }
+  ],
+  "columns": [
+    {
+      "type": "numeric",
+      "key": "rating",
+      "full_name": "Rating",
+      "is_objective": true,
+      "range": {
+        "high": 5,
+        "low": 0
+      },
+      "goal": "max"
+    },
+    {
+      "full_name": "Distance_ray",
+      "key": "distance_ray",
+      "type": "numeric",
+      "is_objective": true,
+      "range": {
+        "high": 40.0,
+        "low": 0.0
+      },
+      "goal": "max"
+    },
+    {
+      "type": "numeric",
+      "key": "geolocation",
+      "full_name": "Distance_ray",
+      "is_objective": true,
+      "range": {
+        "high": 50.0,
+        "low": 0.0
+      },
+      "goal": "min"
+    }
+  ],
+  "subject": "restaurant"
+}
