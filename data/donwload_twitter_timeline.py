@@ -12,7 +12,7 @@ def get_twitter_data(usr):
     data = []
     for i in range(0, 100):
         statuses = api.GetUserTimeline(user_id=usr, include_rts=False, count=200, max_id=max_id)
-        #print("len of data received: {}".format(len(statuses)))
+        print("Twitter length of data received: {}".format(len(statuses)))
         if (len(statuses) == 1) and (max_id is not None):
             break
         for status in statuses:
@@ -21,7 +21,7 @@ def get_twitter_data(usr):
             data.append(status.text)
             max_id = status.id
     #print("downloaded data length: {}".format(len(data)))
-    print(json.dumps(data, indent=2, cls=DecimalEncoder))
+    #print(json.dumps(data, indent=2, cls=DecimalEncoder))
     return [data, len(data)]
 
 

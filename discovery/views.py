@@ -31,19 +31,18 @@ def squares(request):
 
     # Get the category from the user
     category = str(request.GET['category'])
-    latitude = float(request.GET['lat'])
-    longitude = float(request.GET['lon'])
+    latitude = 52.3416617 #float(request.GET['lat'])
+    longitude = 4.8867173 #float(request.GET['lon'])
 
-    # Select the restaurant based on the category selected
+    # Select the restaurant based on the category selected from the user
     rist = Restaurants.objects.filter(type=category)
 
-
-    """
     # Get the tweets from the user
-    #tweets = get_twitter_data(usr_id)
-    tweets = get_twitter_data('74159038')
+    #tweets = get_twitter_data('74159038')
+    tweets = get_twitter_data(usr_id)
 
-    personality_json = [{"contentItems": []}]
+    # Create the input for Personality insight
+    personality_json = {"contentItems": []}
     for i in range(0, len(tweets[0])):
         data = {
             "content": tweets[0][i],
@@ -52,28 +51,26 @@ def squares(request):
             "id": str(i),
             "language": "en"
         }
-        personality_json[0]['contentItems'].append(data)
+        personality_json['contentItems'].append(data)
 
-    with open(os.path.join(os.path.dirname(__file__), '../resources/personality.json'), 'w') as f:
-        json.dump(personality_json[0], f, indent=2)
-
+    # API credentials
     personality_insights = PersonalityInsightsV3(
         username=VCAP_SERVICES['personality_insights'][0]['credentials']['username'],
         password=VCAP_SERVICES['personality_insights'][0]['credentials']['password']
     )
-
-    # WATSON PERSONALITY INSIGHT
-    with open(os.path.join(os.path.dirname(__file__), '../resources/personality.json')) as profile_json:
+    try:
+        # WATSON PERSONALITY INSIGHT
         profile = personality_insights.profile(
-            profile_json.read(),
+            json.loads(json.dumps(personality_json)),
             content_type='application/json',
             raw_scores=True,
             consumption_preferences=True
         )
-        #print(json.dumps(profile, indent=2))
+    except Exception as e:
+        print("WatsonException(Personality insight) ==> ", e)
+    #print(json.dumps(profile, indent=2))
 
-    """
-
+    # Create the input for Tradeoff Analytics
     problem_json = {
         "subject": "restaurant",
         "columns": [
@@ -126,11 +123,12 @@ def squares(request):
         }
         problem_json['options'].append(restaurant)
 
-    # WATSON TRADEOFF ANALYTICS
+    # API credentials
     tradeoff_analytics = TradeoffAnalyticsV1(
         username = VCAP_SERVICES['tradeoff_analytics'][0]['credentials']['username'],
         password = VCAP_SERVICES['tradeoff_analytics'][0]['credentials']['password']
     )
+    # TRADEOFF ANALYTICS
     results = tradeoff_analytics.dilemmas(json.loads(json.dumps(problem_json)), generate_visualization=False)
 
     restaurants = []
@@ -145,7 +143,7 @@ def squares(request):
                 "description": idoneo.description,
                 "imgUrl": idoneo.imgUrl
             })
-    print(json.dumps(restaurants, indent=2))
+    #print(json.dumps(restaurants, indent=2))
 
     return HttpResponse(
         json.dumps(restaurants, indent=2)
